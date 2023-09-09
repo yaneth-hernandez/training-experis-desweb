@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1>Get Note Record</h1>
+
+<section>
+    <h4>Ingresar tres calificaciones, calcular el promedio y determinar si el alumno aprobó la materia (3.5 es la nota
+        mínima para pasar).</h4>
+    <form action="" id="form1">
+        <div>
+            <p><label for="">HTML</label></p>
+            <input type="text" placeholder="Math grade" class="grade" id="grade1">
+        </div>
+        <div>
+            <p><label for="">CSS</label></p>
+            <input type="text" placeholder="English grade" class="grade" id="grade2">
+        </div>
+        <div>
+            <div>
+                <p><label for="">JS</label></p>
+                <input type="text" placeholder="Logic grade" class="grade" id="grade3">
+            </div>
+        </div>
+
+        <button type="button" id="btnSend">Send</button>
+        <p id="message1"></p>
+    </form>
+    <br />
+    <h4>Ingresar el nombre de un alumno y tres notas por materia (en total tres materias) y determinar qué materias
+        aprobó y cuáles reprobó.</h4>
+    <form action="" type="submit" id="form2">
+        <div>
+        <p><label for="">Student</label></p>
+        <input type="text" placeholder="name" id="nameId"> <span id="studentName"></span>
+    </div>
+        <div>
+            <div>
+                <p><label for="" id="subejct0">HTML</label></p>
+                <input type="text" placeholder="Math grade" class="grade" id="mathGrade1">
+                <input type="text" placeholder="Math grade" class="grade" id="mathGrade2">
+                <input type="text" placeholder="Math grade" class="grade" id="mathGrade3"> =
+                <input type="text" placeholder="Total" class="result" id="TotalGrade0" readonly>
+                <input type="text" placeholder="" class="result" id="icon1" readonly>
+            </div>
+        </div>
+        <div>
+            <p><label for="" id="subejct1">CSS</label></p>
+            <input type="text" placeholder="English grade" class="grade" id="engGrade1">
+            <input type="text" placeholder="English grade" class="grade" id="engGrade2">
+            <input type="text" placeholder="English grade" class="grade" id="engGrade3"> =
+            <input type="text" placeholder="Total" class="result" id="TotalGrade1" readonly>
+            <input type="text" placeholder="" class="result" id="icon2" readonly>
+        </div>
+        <div>
+            <p><label for="" id="subejct2">JS</label></p>
+            <input type="text" placeholder="Logic grade" class="grade" id="logGrade1">
+            <input type="text" placeholder="Logic grade" class="grade" id="logGrade2">
+            <input type="text" placeholder="Logic grade" class="grade" id="logGrade3"> =
+            <input type="text" placeholder="Total" class="result" id="TotalGrade2" readonly>
+            <input type="text" placeholder="" class="result" id="icon3" readonly>
+        </div>
+<div>
+    <button type="button" id="btnSend_1">Send</button>
+</div>
+<p id="message2"></p>
+    </form>
+</section>
+    <script src="./app.js"></script>
+</body>
+
+</html>

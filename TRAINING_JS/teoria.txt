@@ -1,0 +1,17 @@
+23/08/2023
+
+null:
+tiene un problema de definición, ya que es leido como un objeto.
+
+
+validación
+
+ if(!Array.isArray(theArray)){
+        throw TypeError('Dato inválido')
+    }
+
+    try{
+    console.log('Con ciclos',sortArray1([-4,-1,0,3,10]))
+}catch(e){
+    console.log(e.message)
+}
