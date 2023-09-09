@@ -14,8 +14,6 @@ const sortArray = (theArray) => {
     return newPowArray.sort((a, b) => a - b)
 }
 
-//console.log('Con sort',sortArray([-4,-1,0,3,10]))
-
 const powArray1 = (numArray) => {
     let operationOnArray = 0
     let array = []
@@ -30,7 +28,6 @@ const powArray1 = (numArray) => {
     return array
 }
 console.log(powArray1([-4, -1, 0, 3, 10]))
-//powArray1([-4,-1,0,3,10])
 
 const sortArray1 = (numArray) => {
     let = array = []
@@ -53,6 +50,5 @@ const sortArray1 = (numArray) => {
 }
 
 console.log('Con ciclos', sortArray1([-4, -1, 0, 3, 10]))
-//console.log('Con ciclos', sortArray1([-3, -1, 0, 3, 10,10000,8,-4]))
 
 

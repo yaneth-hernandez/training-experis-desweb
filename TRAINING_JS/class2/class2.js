@@ -61,9 +61,7 @@ let lowCadena = cadena.split('').map((elem, index) =>{
     return elem.codePointAt(cadena[index])+32 
 }).forEach((char)=>{
     
-    //if((char >= 97 && char <= 122) || char === 64 ){
         cadenaMinuscula += String.fromCharCode(char)
-    //}
 })
 console.log('Solución1: ',cadenaMinuscula.split("@").join(" "))
 
@@ -91,9 +89,7 @@ const reverseString = cadena.split('').reverse().join('');
 console.log('Solución 1 ',reverseString)
 
 let stringArray = cadena.split('')
-//let stringArray = cadena.split(' ') para solo cambiar las palabras de lugar y no girar las letras
 let stringRev= ''
-//console.log('uno',stringArray)
 for(let i = stringArray.length-1; i>=0; i--){
     stringRev += stringArray[i]
 }

@@ -40,7 +40,6 @@ const getDataForm2 = () => {
     const grade8 = document.getElementById('logGrade2').value
     const grade9 = document.getElementById('logGrade3').value
 
-    //return [grade1, grade2, grade3, grade4, grade5, grade6, grade7, grade8, grade9]
     return [ 
         name, 
         {
@@ -134,7 +133,6 @@ const getBtn2ElementAddEvent = () => {
 
 
     btn.addEventListener('click', () => {
-       //console.log(form)
         
         let sendRecord = 
         [ 
@@ -206,6 +204,3 @@ const getBtn2ElementAddEvent = () => {
 
 getBtnElementAddEvent()
 getBtn2ElementAddEvent()
-
-
-//9+8+7-6
